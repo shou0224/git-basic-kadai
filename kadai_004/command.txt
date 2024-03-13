@@ -1,0 +1,58 @@
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git add .
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git commit -m 'hello_world.txtを追加'
+[main ba86bde] hello_world.txtを追加
+ Committer: 菅原祥 <sugawarasachi@sugawarasachinoMacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git_challenge/hello_world.txt
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git status
+On branch main
+nothing to commit, working tree clean
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git log
+commit ba86bde32fc512e736c8cf5cabbcd323f068e682 (HEAD -> main)
+Author: 菅原祥 <sugawarasachi@sugawarasachinoMacBook-Pro.local>
+Date:   Wed Mar 13 08:55:34 2024 +0900
+
+    hello_world.txtを追加
+
+commit a5cee8d29fe0ea9aece6b1ae1a08ddf3f7c86c20
+Author: 菅原祥 <sugawarasachi@sugawarasachinoMacBook-Pro.local>
+Date:   Wed Mar 13 08:53:07 2024 +0900
+
+    init
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git log --oneline
+ba86bde (HEAD -> main) hello_world.txtを追加
+a5cee8d init
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git add .
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git commit -m '日本語訳を追記'
+[main e016de2] 日本語訳を追記
+ Committer: 菅原祥 <sugawarasachi@sugawarasachinoMacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+)
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git status
+On branch main
+nothing to commit, working tree clean
+sugawarasachi@sugawarasachinoMacBook-Pro kadai_004 % git log --oneline
+e016de2 (HEAD -> main) 日本語訳を追記
+ba86bde hello_world.txtを追加
+a5cee8d init
